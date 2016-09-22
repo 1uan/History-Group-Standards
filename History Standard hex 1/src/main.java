@@ -7,7 +7,7 @@ public class main {
 		
 		while (continueCode) {
 
-			System.out.print("\nWould you like to learn about the Civil War or Reconstruction? : ");
+			System.out.print("\nWould you like to learn about the Civil War, Republicans during Reconstruction,\n Amendments made after the Civil War, Jim Crow laws, Black Codes,\n or Reconstruction? : ");
 			String input = scanner.nextLine().toLowerCase();
 			if ( input.equals("civil war") ){ 
 				System.out.print("Would you like to learn about the causes, course, or consequences? : ");
@@ -26,12 +26,13 @@ public class main {
 				}
 
 			}else if ( input.equals("reconstruction") ){
+				System.out.print("Would you like to learn about the causes, course, or consequences? : ");
 				String reconSelect = scanner.nextLine();
 				switch (reconSelect) {
 			    case "causes": System.out.println("Due to the destruction from the Civil War the country needed time to fix towns as well as relations"
 							+ " between the divided country..");
 			      break;
-			    case "course": System.out.println("Reconstruction lasted for almost 12 years after the Civil War as the C repaired broken"
+			    case "course": System.out.println("Reconstruction lasted for almost 12 years after the Civil War as the Country repaired broken"
 							+ " infrastructure and society.");
 			      break;
 			    case "consequences": System.out.println("Society rebuilt itself in many different ways. The constitution was amended to include the rights of"
@@ -40,6 +41,30 @@ public class main {
 			    default: System.out.println("I'm sorry, I didn't understand that");
 			      break;
 				}
+			}else if ( input.equals("amendments made after the civil war") ){
+				System.out.print("Would you like to learn about the 13th, 14th, or 15th amednment? : ");
+					String amendSelect = scanner.nextLine();
+					switch (amendSelect) {
+				    case "13th": System.out.println("The thirteenth amendment changed The Constitution to completely abolish slavery\n and involuntary servitude (except as a crime sentence), and effectively ended slavery in America.");
+
+				      break;
+				    case "14th": System.out.println("The 14th amendment granted citizenship to everyone born or naturalized in the US, which granted freedom to former slaves that were freed.");
+				      break;
+				    case "15th": System.out.println("The 15th amendment bans federal and state governments from denying a person’s right to vote because of their race, color, or previous condition of servitude.");
+				      break;
+				    default: System.out.println("I'm sorry, I didn't understand that");
+				      break;
+					}
+			}else if ( input.equals("jim crow laws") ){
+				System.out.print("Jim Crow Laws limited rights of blacks. For example, literacy tests, grandfather clauses, and poll taxes limited black voting rights.");
+			}else if ( input.equals("black codes") ){
+				System.out.print("The Black Codes would limit blacks' ability to control their own employment. This meant that they could not be owned and forced to do anything they did not want to.");
+			}else if ( input.equals("republicans during reconstruction") ){
+				System.out.print("The Radical Republicans strongly opposed slavery during the war and after the war distrusted ex-Confederates, demanding harsh policies for Reconstruction.");
+			
+			
+					
+				
 			}else if( input.equals("end") ) {continueCode=false;}
 		}
 		scanner.close();
