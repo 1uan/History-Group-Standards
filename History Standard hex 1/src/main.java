@@ -1,5 +1,7 @@
 import java.util.Scanner;
-import history.inventors.*;
+
+import history.firstIR;
+import history.inventors;
 public class main {
 	public static void main (String[] args){
 		boolean continueCode = true;
@@ -7,7 +9,7 @@ public class main {
 
 		while (continueCode) {
 
-			System.out.print("\nWould you like to learn about the Civil War, Republicans during Reconstruction,\n Amendments made after the Civil War, Jim Crow laws, Black Codes,\n Inventors, or Reconstruction? : ");
+			System.out.print("\nWould you like to learn about the Civil War, Republicans during Reconstruction,\n Amendments made after the Civil War, Jim Crow laws, Black Codes,\n an Inventor from the time, Industrial Revolution, or Reconstruction? : ");
 			String input = scanner.nextLine().toLowerCase();
 			if ( input.equals("civil war") ){ 
 				System.out.print("Would you like to learn about the causes, course, or consequences? : ");
@@ -61,8 +63,10 @@ public class main {
 				System.out.print("\nThe Black Codes would limit blacks' ability to control their own employment.\n This meant that they could not be owned and forced to do anything they did not want to.\n");
 			}else if ( input.equals("republicans during reconstruction") ){
 				System.out.print("The Radical Republicans strongly opposed slavery during the war and after\n the war distrusted ex-Confederates, demanding harsh policies for Reconstruction.\n");
-			}else if ( input.equals("inventors") ){
-				history;
+			}else if ( input.equals("an inventor from the time") ){
+				inventors.inventorInfo();
+			}else if ( input.equals("industrial revolution") ){
+				firstIR.EcoInfo();
 
 
 
@@ -71,5 +75,8 @@ public class main {
 		}
 		scanner.close();
 	}
-}
+
+
+	}
+
 

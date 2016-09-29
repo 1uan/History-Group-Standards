@@ -2,11 +2,10 @@ package history;
 
 public class inventors {
 
-	public String[] inventorInfo() {
+	public static String[] inventorInfo() {
 		String inventor;
 		String info;
 		int inventorID = (int)((100 * Math.random())/25);
-		System.out.println(inventorID);
 
 		switch (inventorID) {
 		case 0: inventor = "Samuel F. B. Morse";
