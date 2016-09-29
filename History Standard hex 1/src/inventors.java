@@ -1,4 +1,4 @@
-package history;
+
 public class inventors {
 
 	public String[] inventorInfo() {
@@ -21,7 +21,7 @@ public class inventors {
 		info = "Ada Lovelace is considered the first programmer. She is the person who, in 1843, and came up with the concept for"
 				+ " using numbers to represent data in all forms, not just quantity and calculations, which is the basis for computers today."
 				+ " She wrote a complementory set of notes titled 'Notes', that is considered the first true computer program (an algorithm "
-				+ "that is meant to be preformed by a machine.)  ";
+				+ "that is meant to be preformed by a machine.) ";
 		break;
 		case 3: inventor = "Eli Whitney";
 		info = "Eli Whitney is famous for creating the cotton gin, which was supposed to lower the number of slaves used on plantations"
@@ -39,5 +39,4 @@ public class inventors {
 		String[] retVal = {inventor, info};
 		return retVal;
 	}
-
 }
