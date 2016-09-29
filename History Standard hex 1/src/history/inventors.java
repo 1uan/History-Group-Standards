@@ -1,3 +1,4 @@
+package history;
 
 public class inventors {
 
@@ -10,7 +11,7 @@ public class inventors {
 		switch (inventorID) {
 		case 0: inventor = "Samuel F. B. Morse";
 		info = "Samuel F. B. Morse was the inventor of Morse Code and the Telegraph, which allowed for communication across long distances"
-				+ "and laid the groundwork for fax, telephones, and the internetz";
+				+ "and laid the groundwork for fax, telephones, and the internet";
 		break;
 		case 1: inventor = "George Washington Carver";
 		info = "George Washington Carver was an African American inventor who found over 300 uses for the peanut and over 100 uses "
