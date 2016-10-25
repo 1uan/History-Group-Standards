@@ -23,7 +23,9 @@ public class Standard3 {
 			String input = scanner.nextLine();
 			if ( input.equals("1")){
 				System.out.print("Compare the experience of European immigrants in the east to that of Asian immigrants in the west\n"
-						+ "Immigration to the west coast mainly consisted of Chinese immigrants. Chinese immigrants worked on the railroad and moved somewhat throughout the west. Immigration in the east mainly consisted of southern and eastern European immigrants. They would arrive at Ellis Island and rarely move about the east.");
+						+ "Immigration to the west coast mainly consisted of Chinese immigrants. Chinese immigrants worked on the railroad "
+						+ "\nand moved somewhat throughout the west. Immigration in the east mainly consisted of southern and eastern European "
+						+ "\nimmigrants. They would arrive at Ellis Island and rarely move about the east.\n\n");
 				
 			}else if ( input.equals("2")){
 				System.out.print("2");
@@ -35,6 +37,7 @@ public class Standard3 {
 				System.out.print("5");
 			}else if ( input.equals("6")){
 				System.out.print("6");
+				continueCode = false;
 			}
 
 
