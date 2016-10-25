@@ -7,7 +7,7 @@ public class Standard3 {
 	public Standard3() {
 
 	}
-
+//test
 	public static void main(String[] args) {
 		boolean continueCode = true;
 		Scanner scanner = new Scanner(System.in);
