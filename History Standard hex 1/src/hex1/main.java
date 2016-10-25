@@ -1,6 +1,5 @@
+package hex1;
 import java.util.Scanner;
-import history.inventors;
-import history.firstIR;
 
 public class main {
 	public static void main (String[] args){

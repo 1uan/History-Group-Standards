@@ -1,10 +1,5 @@
-package history;
+package hex2;
 import java.util.Scanner;
-import hex2.Immigrants;
-import hex2.Ideologies;
-import hex2.LaborMovement;
-import hex2.Political_Machines;
-import hex2.Social_Change;
 
 
 public class Standard3 {

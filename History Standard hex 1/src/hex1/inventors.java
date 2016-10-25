@@ -1,4 +1,4 @@
-package history;
+package hex1;
 
 public class inventors {
 
