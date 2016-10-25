@@ -1,9 +1,14 @@
 import java.util.Scanner;
 
+<<<<<<< HEAD
 import history.inventors;
 import history.inventors.*;
 
 
+=======
+import history.firstIR;
+import history.inventors;
+>>>>>>> branch 'master' of https://github.com/1uan/History-Group-Standards
 public class main {
 	public static void main (String[] args){
 		boolean continueCode = true;
@@ -11,7 +16,11 @@ public class main {
 
 		while (continueCode) {
 
+<<<<<<< HEAD
 			System.out.print("\nWould you like to learn about the Civil War, Republicans during Reconstruction,\n Amendments made after the Civil War, Jim Crow laws, Black Codes,\n an Inventor from the time, or Reconstruction? : ");
+=======
+			System.out.print("\nWould you like to learn about the Civil War, Republicans during Reconstruction,\n Amendments made after the Civil War, Jim Crow laws, Black Codes,\n an Inventor from the time, Industrial Revolution, or Reconstruction? : ");
+>>>>>>> branch 'master' of https://github.com/1uan/History-Group-Standards
 			String input = scanner.nextLine().toLowerCase();
 			if ( input.equals("civil war") ){ 
 				System.out.print("Would you like to learn about the causes, course, or consequences? : ");
@@ -65,8 +74,15 @@ public class main {
 				System.out.print("\nThe Black Codes would limit blacks' ability to control their own employment.\n This meant that they could not be owned and forced to do anything they did not want to.\n");
 			}else if ( input.equals("republicans during reconstruction") ){
 				System.out.print("The Radical Republicans strongly opposed slavery during the war and after\n the war distrusted ex-Confederates, demanding harsh policies for Reconstruction.\n");
+<<<<<<< HEAD
 			}else if ( input.equals("inventor") ){
 				inventors.inventorInfo();
+=======
+			}else if ( input.equals("an inventor from the time") ){
+				inventors.inventorInfo();
+			}else if ( input.equals("industrial revolution") ){
+				firstIR.EcoInfo();
+>>>>>>> branch 'master' of https://github.com/1uan/History-Group-Standards
 
 
 
@@ -75,5 +91,8 @@ public class main {
 		}
 		scanner.close();
 	}
-}
+
+
+	}
+
 
