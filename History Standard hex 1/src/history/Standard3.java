@@ -1,13 +1,14 @@
 package history;
-
 import java.util.Scanner;
+import hex2.Immigrants;
+import hex2.Ideologies;
+import hex2.LaborMovement;
+import hex2.Political_Machines;
+import hex2.Social_Change;
+
 
 public class Standard3 {
 
-	public Standard3() {
-
-	}
-//test
 	public static void main(String[] args) {
 		boolean continueCode = true;
 		Scanner scanner = new Scanner(System.in);
@@ -21,30 +22,34 @@ public class Standard3 {
 					+ "\n [5] Compare how different nongovernmental organizations and progressives worked"
 					+ "\n [6] Exit Program\n");
 			String input = scanner.nextLine();
-			if ( input.equals("1")){
+			int inputNumb = Integer.parseInt(input);
+			/**
 				System.out.print("Compare the experience of European immigrants in the east to that of Asian immigrants in the west\n"
 						+ "Immigration to the west coast mainly consisted of Chinese immigrants. Chinese immigrants worked on the railroad "
 						+ "\nand moved somewhat throughout the west. Immigration in the east mainly consisted of southern and eastern European "
 						+ "\nimmigrants. They would arrive at Ellis Island and rarely move about the east.\n\n");
-				
-			}else if ( input.equals("2")){
-				System.out.print("2");
-			}else if ( input.equals("3")){
-				System.out.print("3");
-			}else if ( input.equals("4")){
-				System.out.print("4");
-			}else if ( input.equals("5")){
-				System.out.print("5");
-			}else if ( input.equals("6")){
-				System.out.print("6");
-				continueCode = false;
+			**/
+			continueCode = false;
+			switch (inputNumb) {
+			case 1: 
+				break;
+			case 2:
+				break;
+			case 3: 
+				break;
+			case 4: 
+				break;
+			case 5: 
+				break;
+			case 6:
+				break;
+			default: 
+			System.out.println("Exit");
 			}
-
-
-
+		scanner.close();
 		}
-
 	}
 
 }
+
 
