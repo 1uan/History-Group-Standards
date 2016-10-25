@@ -6,6 +6,10 @@ public class inventors {
 		String inventor;
 		String info;
 		int inventorID = (int)((100 * Math.random())/25);
+<<<<<<< HEAD
+		//System.out.println(inventorID);
+=======
+>>>>>>> branch 'master' of https://github.com/1uan/History-Group-Standards
 
 		switch (inventorID) {
 		case 0: inventor = "Samuel F. B. Morse";
