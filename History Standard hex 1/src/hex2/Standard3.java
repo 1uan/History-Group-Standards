@@ -9,13 +9,13 @@ public class Standard3 {
 		Scanner scanner = new Scanner(System.in);
 
 		while (continueCode) {
-			System.out.print("Enter the number for the topic you would like to learn about?"
+			System.out.print("Enter the number for the topic you would like to learn about:"
 					+ "\n [1] Compare the experience of European immigrants in the east to that of Asian immigrants in the west "
 					+ "\n [2] Examine the importance of social change and reform in the late 19th and early 20th centuries"
 					+ "\n [3] Examine the labor movement in the late 19th and early 20th centuries"
 					+ "\n [4] Analyze the impact of political machines in United States cities in the late 19th and early 20th centuries"
 					+ "\n [5] Compare how different nongovernmental organizations and progressives worked"
-					+ "\n [6] Exit Program\n");
+					+ "\n [0] Exit Program\n");
 			String input = scanner.nextLine();
 			int inputNumb = Integer.parseInt(input);
 			/**
@@ -36,7 +36,7 @@ public class Standard3 {
 				break;
 			case 5: 
 				break;
-			case 6:
+			case 0:
 				break;
 			default: 
 			System.out.println("Exit");
