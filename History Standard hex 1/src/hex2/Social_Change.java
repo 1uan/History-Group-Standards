@@ -6,7 +6,7 @@ public class Social_Change {
 	public static void comparison(Scanner scanner){
 		boolean continueVar = true;
 		while (continueVar){
-			System.out.print("Enter the number for the topic you would like to learn about:"
+			System.out.print("\nEnter the number for the topic you would like to learn about:"
 					+ "\n [1] The Class System"
 					+ "\n [2] Migration From Farms to Cities"
 					+ "\n [3] The Social Gospel Movement"

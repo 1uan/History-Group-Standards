@@ -35,6 +35,7 @@ public class Standard3 {
 			case 3: 
 				break;
 			case 4: 
+				Political_Machines.comparison(scanner);
 				break;
 			case 5: 
 				break;
