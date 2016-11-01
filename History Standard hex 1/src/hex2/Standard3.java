@@ -1,6 +1,6 @@
 package hex2;
 import java.util.Scanner;
-
+import hex2.Immigrants;
 
 public class Standard3 {
 
@@ -27,6 +27,7 @@ public class Standard3 {
 			continueCode = false;
 			switch (inputNumb) {
 			case 1: 
+				Immigrants.comparison(scanner);
 				break;
 			case 2:
 				break;

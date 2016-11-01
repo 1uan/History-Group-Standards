@@ -3,7 +3,7 @@ package hex2;
 import java.util.Scanner;
 
 public class Immigrants {
-	public void comparison(Scanner scanner){
+	public static void comparison(Scanner scanner){
 		boolean continueVar = true;
 		while (continueVar){
 			System.out.print("Enter the number for the topic you would like to learn about:"
@@ -11,7 +11,7 @@ public class Immigrants {
 					+ "\n [2] Learn about the Chinese Exclusion Act"
 					+ "\n [3] Learn about the Gentleman's Agreement with Japan"
 					+ "\n [0] Exit Program\n");
-		}
+		
 			String input = scanner.nextLine();
 			int inputNumb = Integer.parseInt(input);
 
@@ -28,6 +28,7 @@ public class Immigrants {
 				break;
 			case 3:
 				//Gentleman's Agreement with Japan
+				
 				break;
 			case 0:
 				continueVar = false;
@@ -35,6 +36,7 @@ public class Immigrants {
 				break;
 			default: 
 				break;
+			}
 		}
 	}
 }
