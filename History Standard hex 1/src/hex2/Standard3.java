@@ -24,7 +24,7 @@ public class Standard3 {
 						+ "\nand moved somewhat throughout the west. Immigration in the east mainly consisted of southern and eastern European "
 						+ "\nimmigrants. They would arrive at Ellis Island and rarely move about the east.\n\n");
 			**/
-			continueCode = false;
+			continueCode = true;
 			switch (inputNumb) {
 			case 1: 
 				Immigrants.comparison(scanner);
@@ -40,10 +40,11 @@ public class Standard3 {
 			case 0:
 				break;
 			default: 
-			System.out.println("Exit");
+				System.out.println("Exit");
 			}
-		scanner.close();
 		}
+		scanner.close();
+		
 	}
 
 }
