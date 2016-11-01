@@ -9,7 +9,7 @@ public class Standard3 {
 		Scanner scanner = new Scanner(System.in);
 
 		while (continueCode) {
-			System.out.print("Enter the number for the topic you would like to learn about:"
+			System.out.print("\nEnter the number for the topic you would like to learn about:"
 					+ "\n [1] Compare the experience of European immigrants in the east to that of Asian immigrants in the west "
 					+ "\n [2] Examine the importance of social change and reform in the late 19th and early 20th centuries"
 					+ "\n [3] Examine the labor movement in the late 19th and early 20th centuries"
@@ -30,10 +30,12 @@ public class Standard3 {
 				Immigrants.comparison(scanner);
 				break;
 			case 2:
+				Social_Change.comparison(scanner);
 				break;
 			case 3: 
 				break;
 			case 4: 
+				Political_Machines.comparison(scanner);
 				break;
 			case 5: 
 				break;

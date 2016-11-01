@@ -6,7 +6,7 @@ public class Immigrants {
 	public static void comparison(Scanner scanner){
 		boolean continueVar = true;
 		while (continueVar){
-			System.out.print("Enter the number for the topic you would like to learn about:"
+			System.out.print("\nEnter the number for the topic you would like to learn about:"
 					+ "\n [1] The experience of European immigrants compared to that of Asian immigrants"
 					+ "\n [2] Learn about the Chinese Exclusion Act"
 					+ "\n [3] Learn about the Gentleman's Agreement with Japan"
@@ -18,7 +18,7 @@ public class Immigrants {
 			switch (inputNumb) {
 			case 1:
 				//Overall
-				System.out.print("Compare the experience of European immigrants in the east to that of Asian immigrants in the west\n"
+				System.out.print("\n"
 						+ "Immigration to the west coast mainly consisted of Chinese immigrants. Chinese immigrants worked on the railroad "
 						+ "\nand moved somewhat throughout the west. Immigration in the east mainly consisted of southern and eastern European "
 						+ "\nimmigrants. They would arrive at Ellis Island and rarely move about the east.\n\n");
