@@ -11,17 +11,10 @@ public class Immigrants {
 					+ "\n [2] Learn about the Chinese Exclusion Act"
 					+ "\n [3] Learn about the Gentleman's Agreement with Japan"
 					+ "\n [0] Exit Program\n");
-<<<<<<< HEAD
 		}
 		String input = scanner.nextLine();
 		int inputNumb = Integer.parseInt(input);
-=======
-		
-			String input = scanner.nextLine();
-			int inputNumb = Integer.parseInt(input);
->>>>>>> branch 'master' of https://github.com/1uan/History-Group-Standards.git
 
-<<<<<<< HEAD
 		switch (inputNumb) {
 		case 1:
 			//Overall
