@@ -54,7 +54,7 @@ public class Social_Change {
 			break;
 			case 0:
 				continueVar = false;
-				System.out.println("Exiting Immigrants");
+				System.out.println("Exiting Social Change");
 				break;
 			default: 
 				break;

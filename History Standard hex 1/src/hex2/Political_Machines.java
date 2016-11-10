@@ -36,7 +36,7 @@ public class Political_Machines {
 				break;	
 			case 0:
 				continueVar = false;
-				System.out.println("Exiting Immigrants");
+				System.out.println("Exiting Political Machines");
 				break;
 			default: 
 				break;

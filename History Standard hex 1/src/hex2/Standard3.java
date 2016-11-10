@@ -1,7 +1,5 @@
 package hex2;
 import java.util.Scanner;
-import hex2.Immigrants;
-
 public class Standard3 {
 
 	public static void main(String[] args) {
@@ -14,7 +12,6 @@ public class Standard3 {
 					+ "\n [2] Examine the importance of social change and reform in the late 19th and early 20th centuries"
 					+ "\n [3] Examine the labor movement in the late 19th and early 20th centuries"
 					+ "\n [4] Analyze the impact of political machines in United States cities in the late 19th and early 20th centuries"
-					+ "\n [5] Compare how different nongovernmental organizations and progressives worked"
 					+ "\n [0] Exit Program\n");
 			String input = scanner.nextLine();
 			int inputNumb = Integer.parseInt(input);

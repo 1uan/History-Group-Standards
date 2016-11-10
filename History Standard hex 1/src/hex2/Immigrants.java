@@ -41,7 +41,7 @@ public class Immigrants {
 				break;
 			case 0:
 				continueVar = false;
-				System.out.println("Exiting Immigrants");
+				System.out.println("Exiting Immagrants");
 				break;
 			default: 
 				break;
