@@ -35,23 +35,23 @@ public class LaborMovement {
 			case 3:
 				//Orgs & Bills/Acts
 				int x = 0;
-				String[] Orgs = {"The Knights of Labor", "The American Federation of Labor (AFL)", "the National Labor Relations Board (NLRB)"};
-				String[] Acts = {"The Sherman Antitrust Act of 1890", "The Clayton Antitrust Act of 1914", "The Adamson Act of 1916", "The National Industrial Recovery Act of 1933", "The Wagner Act (1935)", "The Fair Labor Standards Act (1938)"  };
-				System.out.print("Strikes began in 1892 with Steel workers in Pennsylvania. The movement gave rise the following organizations:");
+				String[] Orgs = {"The Knights of Labor\n", "The American Federation of Labor (AFL)\n", "The National Labor Relations Board (NLRB)\n"};
+				String[] Acts = {"The Sherman Antitrust Act of 1890\n", "The Clayton Antitrust Act of 1914\n", "The Adamson Act of 1916\n", "The National Industrial Recovery Act of 1933\n", "The Wagner Act (1935)\n", "The Fair Labor Standards Act (1938)\n\n"};
+				System.out.print("\nStrikes began in 1892 with Steel workers in Pennsylvania. The movement gave rise the following organizations:\n");
 				while (x < Orgs.length){
 					System.out.print("[" + String.valueOf(x) + "] " + Orgs[x]);
 					x++;
 				}
-				System.out.print("The Movement also helped get the following Bills Passed:");
+				System.out.print("\nThe Movement also helped get the following Bills Passed:\n");
 				x = 0;
-				while (x < Orgs.length){
+				while (x < Acts.length){
 					System.out.print("[" + String.valueOf(x) + "] " + Acts[x]);
 					x++;
 				}
 				break;
 			case 0:
 				continueVar = false;
-				System.out.println("Exiting Immigrants");
+				System.out.println("Labor Movements");
 				break;
 			default: 
 				break;
